@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">    
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Session Decision Helper</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Study Session Decision Helper</h1>
+        <p>Choose your energy level and available time to get a study recommendation.</p>
+    </header>
+
+
+<main>
+
+    <section class="input-section">
+        <h2>Choose Your Study Preferences</h2>
+
+        <label for="energy-level">Energy Level:</label>
+        <select id="energy-level">
+
+            <option value="">Select Your Energy Level</option>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
+
+        <label for="available-time">Available Time (Minutes):</label>
+        <input type="number" id="available-time" min="1" max="180">
+
+        <button id="get-recommendation">Get Recommendation</button>
+        <button id="reset">Reset</button>
+
+    </section>
+
+    <section class="recommendation-section">
+
+        <h2>Your Recommendation:</h2>
+        <p id="recommendation-text">
+            Enter your energy level and available time, then click "Get Recommendation" to see your study suggestion.
+        </p>
+
+    </section>
+
+</main> 
+
+<footer>
+    <p>2026 Study Session Decision Helper.
+        By Madhav Chandgothia
+    </p>
+</footer>
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
