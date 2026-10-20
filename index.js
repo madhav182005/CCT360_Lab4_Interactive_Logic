@@ -14,3 +14,6 @@ function generateRecommendation() {
     // Store the user's selected energy level and available time
     energyLevel = document.getElementById("energy-level").value;
     availableTime = Number(document.getElementById("available-time").value);
+
+    
+}
