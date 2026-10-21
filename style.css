@@ -32,3 +32,95 @@ header p {
     margin: 0;
     font-size: 16px;
 }
+
+/* Main tag content style */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Content and page styling for the Sections tag */
+.input-section,
+.recommendation-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #1f3c5b;
+}
+
+/* Targeting the Input labels for styling */
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Dropdown and number input display */
+select,
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Buttons styling, to be different and more evident on the screen for the user*/
+button {
+    background-color: #1f3c5b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Button hover effect to indicate interactivity and improve user experience */
+button:hover {
+    background-color: #315d88;
+}
+
+/* Reset button background color style */
+#reset {
+    background-color: #666;
+}
+
+#reset:hover {
+    background-color: #444;
+}
+
+/* Recommendation text styling showing output */
+#recommendation-text {
+    background-color: #eef3f8;
+    padding: 20px;
+    border-left: 4px solid #1f3c5b;
+    border-radius: 4px;
+    line-height: 1.6;
+    min-height: 80px;
+}
+
+
+/* Footer style at the bottom of the page */
+footer {
+    background-color: #1f3c5b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
