@@ -43,7 +43,7 @@ main {
 /* Content and page styling for the Sections tag */
 .input-section,
 .recommendation-section {
-    background-color: white;
+    background-color: lightgrey;
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 8px;
