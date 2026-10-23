@@ -75,6 +75,7 @@ input {
 }
 
 /* Buttons styling, to be different and more evident on the screen for the user*/
+/* The button styling is designed to be visually appealing and user-friendly, with a focus on color contrast, padding, and hover effects to enhance the user experience. */
 button {
     background-color: #1f3c5b;
     color: white;
