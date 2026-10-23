@@ -69,7 +69,7 @@ function generateRecommendation() {
     //Outcome 7 - All Other Valid Combinations 
     else {
 
-        recommendation = "General Study Session: You have a balanced energy level and time. Consider a mix of tasks, such as reviewing notes, completing assignments, and practicing questions.";
+        recommendation = "General Study Session: Based on your available energy and time, consider reviewing notes, completing manageable assignments, or practicing questions.";
 
     }
 
